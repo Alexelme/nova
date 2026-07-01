@@ -198,7 +198,9 @@ img {
 
 .hero {
   position: relative;
-  min-height: 0;
+  height: 70vh;
+  min-height: 460px;
+  max-height: 620px;
   color: #fff;
   overflow: hidden;
   background: #061427;
@@ -207,8 +209,7 @@ img {
 .hero-image {
   display: block;
   width: 100%;
-  height: auto;
-  min-height: 620px;
+  height: 100%;
   object-fit: cover;
   object-position: center top;
 }
@@ -1327,8 +1328,14 @@ img {
     min-height: auto;
   }
 
+  .hero {
+    height: 70vh;
+    min-height: 390px;
+    max-height: 520px;
+  }
+
   .hero-image {
-    min-height: 520px;
+    height: 100%;
     object-position: 42% top;
   }
 
